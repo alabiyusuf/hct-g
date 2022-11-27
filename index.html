@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice</title>
+    <link rel="icon" type="image/x-icon" href="img/IMG-20220815-WA0016.jpg">
+</head>
+<body>
+
+    <!-- <h1>DAY ONE HTML</h1> -->
+
+    <h1 style="color: red;">This is Codemarch</h1>
+    <h2>This is Codemarch</h2> <h3></h3>
+    <h3>This is Codemarch</h3>
+    <h4>This is Codemarch</h4>
+    <h5>This is Codemarch</h5>
+    <h6>This <span style="border: 2px solid red;">is</span> Codemarch</h6>
+    <p><i>This is Codemarch</i></p>
+    <p><b>This is Codemarch</b></p>
+    <p><strong>This is Codemarch</strong></p>
+    <p>Hello Hope you know that <sub>this is Codemarch</sub>sha </p>
+    <p>Hello Hope you know that <sup>this is Codemarch</sup>sha </p>
+
+    <hr>
+    
+    <!-- <h1>DAY TWO HTML</h1> -->
+
+    <h3>CodeMarch</h3>
+
+    <img src="img/Day2HTMLAssignment.jpg" alt="Cup of coffee Image" style="width: 200px; height: 150px;">
+
+    <h5>List of 5 Programming Languages.</h5>
+    <ol>
+        <a href="https://javascript.info/"><li>JavaScript</li></a>
+        <a href=""><li>Java</li></a>
+        <a href=""><li>Python</li></a>
+        <a href=""><li>C</li></a>
+        <a href=""><li>C++</li></a>
+    </ol>
+
+    <h5>Ingredients of Tea</h5>
+    <ul>
+        <li>Milk</li>
+        <li>Water</li>
+        <li>Sugar</li>
+        <li>TeaLeaf</li>
+    </ul>
+
+    <h5>A Description List</h5>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <hr>
+
+    <!-- <h1>DAY THREE HTML</h1> -->
+
+    <table>
+        <tr>
+            <th style="border: 2px solid;">Company</th>
+            <th style="border: 2px solid;">Contact</th>
+            <th style="border: 2px solid;">Country</th>
+        </tr>
+
+        <tr>
+            <td style="border: 2px solid;">Alfreds Futter</td>
+            <td style="border: 2px solid;">Maria Anders</td>
+            <td style="border: 2px solid;">Germany</td>
+        </tr>
+
+        <tr>
+            <td style="border: 2px solid;">Centro Commercial Moctezuma</td>
+            <td style="border: 2px solid;">Francisco Chang</td>
+            <td style="border: 2px solid;">Mexico</td>
+        </tr>
+    </table>
+
+
+    <h1>ASSIGNMENT</h1>
+
+    <table style="border: 2px solid brown;">
+        <thead>
+            <tr>
+                <td style="border: 2px solid;">Name</td>
+                <td style="border: 2px solid;">Contact</td>
+                <td style="border: 2px solid;">Country</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td style="border: 2px solid;">John</td>
+                <td style="border: 2px solid;">9977885544</td>
+                <td style="border: 2px solid;">Germany</td>
+            </tr>
+
+            <tr>
+                <td style="border: 2px solid;">Rock</td>
+                <td style="border: 2px solid;">8899476145</td>
+                <td style="border: 2px solid;">Mexico</td>
+            </tr>
+
+            <tr>
+                <td style="border: 2px solid;">Mujeeb</td>
+                <td style="border: 2px solid;">8899568145</td>
+                <td style="border: 2px solid;">Dubai</td>
+            </tr>
+
+            <tr>
+                <td style="border: 2px solid;">Junaid</td>
+                <td style="border: 2px solid;">8856776145</td>
+                <td style="border: 2px solid;">India</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <p>This is an inline span <span style="border: 2px solid black;"><a href="https://twitter.com/home">Codemarch</a></span> element inside a paragraph.</p>
+
+
+    <!-- <h1>FORMS</h1> -->
+
+    <h3>Interests Survey Form</h3>
+
+    <form action="">
+        <div>
+            <label for="urname">Enter your name:</label>
+            <input type="text" name="urname" id="urname">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dept">Enter your department:</label>
+            <input type="text" name="dept" id="dept">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="yourself">Tell us about yourself:</label>
+            <input type="text" id="yourself">
+        </div>
+
+        <br>
+
+        <div>
+            <label>Do you exercise at home?</label> 
+            <label for="due">Yes</label>
+            <input type="radio" name="fave" id="yes" value="Yes">
+
+            <label for="due">No</label>
+            <input type="radio" name="fave" id="no" value="No">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="fave">How do you like to read about your favourite topics?</label> <br>
+            <input type="radio" name="books" id="books">
+            <label for="books">Books</label>
+            
+            <input type="radio" name="onr" id="onr">
+            <label for="onr">Online Resources</label>
+
+            <input type="radio" name="pha" id="pha">
+            <label for="pha">Phone Apps</label>
+
+            <input type="radio" name="mag" id="mag">
+            <label for="mag">Magazines</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="movr">What genre of movies do you like?</label>
+            <select name="movr" id="movr">
+                <option value="horror">Horror</option>
+                <option value="comedy">Comedy</option>
+                <option value="scifi">Sci-fi</option>
+                <option value="reality">Reality</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="button" value="Submit Form">
+        </div>
+    </form>
+
+
+    <h1>DAY THREE ASSIGNMENT</h1>
+
+
+    <table style="border: 2px solid;">
+
+        <p>This is a survey <span style="border: 2px solid;"><a href="isv.html">Form</a></span></p>
+
+        <thead>
+            <tr>
+                <th style="border: 2px solid;">Name</th>
+                <th style="border: 2px solid;">Contact</th>
+                <th style="border: 2px solid;">Country</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td style="border: 2px solid;">John</td>
+                <td style="border: 2px solid;">9977885544</td>
+                <td style="border: 2px solid;">Germany</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid;">Rock</td>
+                <td style="border: 2px solid;">8899476145</td>
+                <td style="border: 2px solid;">Mexico</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid;">Mujeeb</td>
+                <td style="border: 2px solid;">88994768145</td>
+                <td style="border: 2px solid;">Dubai</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid;">Junaid</td>
+                <td style="border: 2px solid;">8856776145</td>
+                <td style="border: 2px solid;">India</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <hr>
+
+    <h1>DAY FOUR HTML</h1>
+
+    <p>Trying my first Emoji practice</p>
+
+    <p>This is a cheese; &#127829</p>
+    <p>This one na candy, candy re; &#127853</p>
+    <p>Pop champagne &#127870</p>
+    <p>Buju's Traboski slaps hard fr! &#127908 &#127911</p>
+    <p>If you can challenge me at &#127921, bring it on</p>
+
+    <canvas style="width: 300px; height: 200px; border: 2px solid brown;" id="myCanvas"></canvas>
+
+    <hr>
+
+    <!-- DAY 5 -->
+
+    <h1>HTML DAY 5 (PROJECT)</h1>
+
+    
+
+</body>
+</html>
